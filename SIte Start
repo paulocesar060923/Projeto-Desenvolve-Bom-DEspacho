@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Start</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: #007BFF;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            margin-top: 1.5rem;
+            color: #0056b3;
+        }
+
+        h4 {
+            margin-top: 1rem;
+            color: #004085;
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 5px solid #007BFF;
+            padding-left: 1rem;
+            margin: 1rem 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #f1f1f1;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Academia Start</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#testemunhos">Testemunhos</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#vantagens">Vantagens</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre a Academia Start</h2>
+            <p>A Academia Start é mais do que um simples local para treinos; é um espaço dedicado à transformação e ao alcance de objetivos de vida saudáveis. Fundada com a missão de inspirar e empoderar nossos membros, nossa academia oferece uma experiência única que combina inovação, qualidade e um ambiente acolhedor.</p>
+            <h3>Missão, Visão e Valores</h3>
+            <p><strong>Missão:</strong> Inspirar e capacitar pessoas a atingirem seus objetivos de fitness e saúde através de programas de treinamento inovadores, equipamentos de alta qualidade e um ambiente acolhedor e motivador.</p>
+            <p><strong>Visão:</strong> Ser a academia referência em nossa comunidade, reconhecida por nossa excelência em serviços, ambiente inclusivo e apoio contínuo aos nossos membros na busca por um estilo de vida saudável.</p>
+            <h4>Valores:</h4>
+            <ul>
+                <li><strong>Comprometimento:</strong> Estamos dedicados a ajudar nossos membros a alcançarem seus objetivos.</li>
+                <li><strong>Inovação:</strong> Buscamos constantemente novas maneiras de melhorar nossos serviços e instalações.</li>
+                <li><strong>Inclusão:</strong> Acreditamos que todos têm o direito a uma vida saudável e ativa, independentemente de idade ou nível de condicionamento físico.</li>
+                <li><strong>Qualidade:</strong> Comprometemo-nos a oferecer a mais alta qualidade em tudo o que fazemos.</li>
+            </ul>
+        </section>
+        <section id="servicos">
+            <h2>Serviços Oferecidos</h2>
+            <ul>
+                <li><strong>Treinamento Personalizado:</strong> treinadores qualificados para ajudar você a atingir metas específicas.</li>
+                <li><strong>Plano de Nutrição:</strong> Consultoria nutricional para complementar seu plano de treinamento, ajudando a maximizar seus resultados.</li>
+                <li><strong>Avaliação Física:</strong> Avaliações regulares para monitorar o progresso e ajustar o plano de treino conforme necessário.</li>
+                <li><strong>Área de Musculação:</strong> Equipamentos de última geração para todos os tipos de treino, garantindo uma experiência completa e eficiente.</li>
+            </ul>
+        </section>
+        <section id="localizacao">
+            <h2>Localização e Informações de Contato</h2>
+            <p>Estamos estrategicamente localizados no coração da cidade, facilitando o acesso para todos. Visite-nos em:</p>
+            <p><strong>Endereço:</strong></p>
+            <ul>
+                <li>Unidade Olegário Maciel: Rua Olegário Maciel, 377, bairro Olegário Maciel</li>
+                <li>Unidade Dr. Roberto: Avenida Dr. Roberto de Melo Queiroz, 123, bairro Novo São José</li>
+            </ul>
+            <p><strong>Telefone:</strong> (XX) XXXX-XXXX</p>
+            <p><strong>Email:</strong> academiastartolegariomaciel@gmail.com</p>
+            <p><strong>Horário de Funcionamento:</strong> Segunda a quinta das 5:30h às 21:30h, Sexta das 5:30h às 21:00h, Sábado das 8h às 12h, Feriado das 9h às 12h</p>
+        </section>
+        <section id="testemunhos">
+            <h2>Testemunhos de Clientes</h2>
+            <blockquote>"Treinar na Academia Start foi a melhor decisão que tomei. A equipe é incrível e sempre pronta para ajudar!" - João S.</blockquote>
+            <blockquote>"A variedade de aulas e a qualidade dos equipamentos são excepcionais. Recomendo para todos!" - Maria F.</blockquote>
+        </section>
+        <section id="equipe">
+            <h2>Nossa Equipe</h2>
+            <p>Conheça as pessoas dedicadas que fazem da Academia Start um lugar especial:</p>
+            <p><strong>Paulo César Costa:</strong> Proprietário. Com vasta experiência na área de fitness, Paulo é apaixonado por ajudar os outros a atingirem seus objetivos.</p>
+        </section>
+        <section id="vantagens">
+            <h2>Vantagens e Especialidades</h2>
+            <ul>
+                <li><strong>Ambiente Acolhedor:</strong> Nosso espaço é projetado para ser acolhedor e motivador, promovendo uma atmosfera positiva para todos.</li>
+                <li><strong>Equipamentos de Alta Qualidade:</strong> Investimos em equipamentos modernos para garantir que nossos membros tenham a melhor experiência de treino possível.</li>
+                <li><strong>Programas Personalizados:</strong> Nossos treinadores criam programas de treinamento personalizados para atender às necessidades individuais de cada membro.</li>
+                <li><strong>Equipe Dedicada:</strong> Nossa equipe é composta por profissionais altamente qualificados e apaixonados pelo que fazem, prontos para apoiar você em cada passo do seu caminho.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Academia Start. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
